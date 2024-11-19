@@ -22,15 +22,15 @@ A simple implementation of the classic Tic Tac Toe game. Built to demonstrate ba
 
 ## 🛠️ Technologies Used
 
-1. Language: JavaScript
-2. Libraries: React, Tailwind CSS
+- Language: JavaScript
+- Libraries: React, Tailwind CSS
 
 ## 📄 How To Play
 
-1. Game is played on 3 x 3 grid
-2. Players take turns to place their symbol (X or O) in an empty square.
-3. The first player to align three of their symbols vertically, horizontally, or diagonally wins.
-4. If all squares are filled and no player has aligned three symbols, the game ends in a draw
+- Game is played on 3 x 3 grid
+- Players take turns to place their symbol (X or O) in an empty square.
+- The first player to align three of their symbols vertically, horizontally, or diagonally wins.
+- If all squares are filled and no player has aligned three symbols, the game ends in a draw
 
 ## 💡 Future Improvements
 
