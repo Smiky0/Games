@@ -1,50 +1,48 @@
-# React + TypeScript + Vite
+# Tic Tac Toe Game 🎮
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple implementation of the classic Tic Tac Toe game. Built to demonstrate basic programming concepts and provide an interactive way to learn game development.
 
-Currently, two official plugins are available:
+## 📋 Features
+- **Player vs Player Mode**: Two players can take turns to play.
+- **Clean UI**: Minimalistic and easy to understand interface.
+- **Basic Game Logic**: Check for win conditions or a draw after every turn.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Hosted On
+  [Games Link]()
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 🚀 How to Run Locally
 
-- Configure the top-level `parserOptions` property like this:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/tic-tac-toe.git
+   cd tic-tac-toe
+   npm install
+   npm run dev
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 🛠️ Technologies Used
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+1. Language: JavaScript
+2. Libraries: React, Tailwind CSS
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## 📄 How To Play
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+1. Game is played on 3 x 3 grid
+2. Players take turns to place their symbol (X or O) in an empty square.
+3. The first player to align three of their symbols vertically, horizontally, or diagonally wins.
+4. If all squares are filled and no player has aligned three symbols, the game ends in a draw
+
+## 💡 Future Improvements
+
+- Add a Player vs Computer mode with AI.
+- Enhance the UI/UX with a graphical interface.
+- Add game sounds and animations.
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to fork this repository and submit a pull request.
+
+- Fork the repository.
+- Create a new branch.
+- Add/Fix features.
+- Open a pull request.
