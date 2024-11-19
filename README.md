@@ -8,7 +8,7 @@ A simple implementation of the classic Tic Tac Toe game. Built to demonstrate ba
 - **Basic Game Logic**: Check for win conditions or a draw after every turn.
 
 ## 🌐 Hosted On
-  [Games Link](https://smikxgames.vercel.app)
+  [Games Link](https://fungames.vercel.app/)
 
 ## 🚀 How to Run Locally
 
