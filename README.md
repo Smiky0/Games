@@ -8,17 +8,16 @@ A simple implementation of the classic Tic Tac Toe game. Built to demonstrate ba
 - **Basic Game Logic**: Check for win conditions or a draw after every turn.
 
 ## 🌐 Hosted On
-  [Games Link]()
-
+  [Games Link](https://smikxgames.vercel.app)
 
 ## 🚀 How to Run Locally
 
-1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/tic-tac-toe.git
    cd tic-tac-toe
    npm install
    npm run dev
+   ```
 
 ## 🛠️ Technologies Used
 
